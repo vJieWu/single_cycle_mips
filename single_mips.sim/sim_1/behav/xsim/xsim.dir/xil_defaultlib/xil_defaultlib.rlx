@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/vjiew/Desktop/single_mips/single_mips.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/alu.v,1567214763,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/ctrl.v,,alu,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/ctrl.v,1567215278,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/data_mem.v,,ctrl,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/data_mem.v,1567134070,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/extend.v,,dataMem,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/extend.v,1567130312,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/inst_mem.v,,extend,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/inst_mem.v,1567129518,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/mux.v,,instMem,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/mux.v,1567129577,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/new/my_mips.v,,mux,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/npc.v,1567136006,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/pc.v,,npc,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/pc.v,1567156176,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/regfile.v,,pc,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/regfile.v,1567158533,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/new/testbench.v,,regfile,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/new/my_mips.v,1567152386,verilog,,C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/imports/single/npc.v,,my_mips,,,,,,,,
+C:/Users/vjiew/Desktop/single_mips/single_mips.srcs/sources_1/new/testbench.v,1567170438,verilog,,,,testbench,,,,,,,,

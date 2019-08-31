@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug 31 07:59:47 2019
+# Process ID: 11492
+# Current directory: C:/Users/vjiew/Desktop/single_mips
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11252 C:\Users\vjiew\Desktop\single_mips\single_mips.xpr
+# Log file: C:/Users/vjiew/Desktop/single_mips/vivado.log
+# Journal file: C:/Users/vjiew/Desktop/single_mips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vjiew/Desktop/single_mips/single_mips.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/pc0}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/datamem0}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/regfile0}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/ctrl0}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_alu}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_regwrite}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/extend0}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/instmem0/data_out}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_alu/out}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/extend0/data_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0/data_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/regfile0/in_data}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_regwrite/mux_sel}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0/data_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_alu/out}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_alu/in2}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_alu/in1}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0/src1}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0/src2}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/alu0/data_out}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/mux_regwrite/mux_sel}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/regfile0/in_data}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/my_mips0/instmem0/data_out}} 
+relaunch_sim
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Users/vjiew/Desktop/single_mips/schematic.pdf
